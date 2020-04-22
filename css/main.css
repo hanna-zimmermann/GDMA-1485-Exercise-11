@@ -74,19 +74,18 @@
 	
 }
 
-.row {
-	content: "";
-	display: table;
-	clear: both;
+.row:after { 
+     content: ""; 
+     display: table;
+     clear: both;
 }
 
-/* I can't get any of my col-sm to appear in browser. I understand eveything and I've followed along with the videos
-but it still won't appear */
 
 [class*="col-"] {
 	height: 50px;
 	background-color: pink;
 	float:left;
+	padding: 0 10px;
 	margin-bottom: 20px;
 	background-clip: content-box;
 	
